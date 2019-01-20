@@ -1,12 +1,12 @@
-import Navbar from '../components/Navbar';
+import Layout from '../components/Layout';
 
 const Basic = () => (
-	<div>
-		<Navbar/>
-		<h1>Hello Romil --Gangstu here!</h1>
-		<p>Applicatoion to view Bitcoin prices</p>
-	</div>
-
+	<Layout>
+		<div>
+			<h1>Hello Romil --Gangstu here!</h1>
+			<p>Applicatoion to view Bitcoin prices</p>
+		</div>
+	</Layout>
 );
 
 export default Basic;
