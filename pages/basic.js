@@ -1,14 +1,10 @@
-import Link from 'next/link';
-
+import Navbar from '../components/Navbar';
 
 const Basic = () => (
 	<div>
-		<ul>
-	 		<li><Link href="/"><a>Gangstu</a></Link></li>
-	 		<li><Link href="/basic"><a>Basic</a></Link></li>
-	 	</ul>
+		<Navbar/>
 		<h1>Hello Romil --Gangstu here!</h1>
-		<p>Applicatoion to view BItcoin prices</p>
+		<p>Applicatoion to view Bitcoin prices</p>
 	</div>
 
 );
